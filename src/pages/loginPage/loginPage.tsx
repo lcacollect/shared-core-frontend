@@ -1,6 +1,6 @@
 import { InteractionStatus } from '@azure/msal-browser'
 import { useMsal } from '@azure/msal-react'
-import React, { useCallback, useState } from 'react'
+import { useCallback, useState } from 'react'
 import { Button, Container, Paper, Stack, Typography } from '@mui/material'
 import { ErrorMessage } from '@lcacollect/components'
 
