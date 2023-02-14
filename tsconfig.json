@@ -9,20 +9,20 @@
     "importHelpers": true,
     "target": "esnext",
     "module": "ESNext",
-    "lib": ["es5","es2017", "dom"],
+    "lib": ["es5", "es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist/esm",
     "jsx": "react-jsx",
-    "types": ["node"],
+    "types": ["node", "jest", "mocha"],
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "src",
     "isolatedModules": true,
     "esModuleInterop": true
   },
-  "exclude": ["node_modules", "**/*.spec.tsx", "**/*.spec.ts", "**/__mocks__/*.*"],
+  "exclude": ["node_modules", "**/*.spec.tsx", "**/__mocks__/*.*"],
   "include": ["src/**/*"]
 }

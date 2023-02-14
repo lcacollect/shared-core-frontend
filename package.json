@@ -1,6 +1,6 @@
 {
   "name": "@lcacollect/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared Core library for LCAcollect",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -36,8 +36,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@tsconfig/create-react-app": "^1.0.2",
+    "@types/jest": "^29.4.0",
+    "@types/mocha": "^10.0.1",
     "@types/node": "^18.8.5",
-    "@types/react": "^18.0.21",
+    "@types/react": "^18.0.28",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "@vitejs/plugin-react": "^3.0.0",
@@ -57,11 +59,11 @@
     "vitest": "^0.25.8"
   },
   "peerDependencies": {
-    "@lcacollect/components": "^1.1.0",
     "@apollo/react-hooks": "^4.0.0",
     "@azure/msal-browser": "^2.30.0",
     "@azure/msal-react": "^1.4.9",
     "@emotion/styled": "^11.10.4",
+    "@lcacollect/components": "^1.1.0",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.9",
     "@mui/x-data-grid-pro": "^5.17.7",

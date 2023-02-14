@@ -1,6 +1,6 @@
 import { InteractionStatus } from '@azure/msal-browser'
 import { useMsal } from '@azure/msal-react'
-import React, { useCallback, useState } from 'react'
+import react, { useCallback, useState } from 'react'
 import { Button, Container, Paper, Stack, Typography } from '@mui/material'
 import { ErrorMessage } from '@lcacollect/components'
 
@@ -47,6 +47,15 @@ export const LoginPage = () => {
             Login
           </Button>
           <ErrorMessage error={error} />
+          <Typography
+            variant='caption'
+            fontSize={11}
+            color='grey'
+            component='div'
+            sx={{ float: 'right', marginTop: 3 }}
+          >
+            By logging in you accept the {<a href='https://www.lcacollect.dk'>terms and conditions</a>} for LCAcollect.
+          </Typography>
         </Paper>
       </Stack>
     </Container>
