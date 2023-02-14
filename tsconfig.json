@@ -16,7 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist/esm",
     "jsx": "react-jsx",
-    "types": ["node"],
+    "types": ["node", "jest", "mocha"],
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "src",
