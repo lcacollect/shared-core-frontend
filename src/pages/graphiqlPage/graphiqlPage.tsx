@@ -21,7 +21,7 @@ export const GraphiqlPage: React.FC<GraphiqlPageProps> = ({ apolloRouterUrl, aad
         headers: {
           Authorization: 'Bearer ' + token,
           Accept: 'application/json',
-          'Content-Type': 'application/json',
+          'content-type': 'application/json',
         },
       }),
     [token],
