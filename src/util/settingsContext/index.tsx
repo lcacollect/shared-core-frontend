@@ -1,10 +1,15 @@
 import { createContext, useContext } from 'react'
 
-const SettingsContext = createContext({})
+export interface Settings {
+  domainName: string | null
+  projectStageList: string | string[] | null
+}
+
+const SettingsContext = createContext({} as Settings)
 
 type SettingsProps = {
   children: React.ReactNode
-  settings: object
+  settings: Settings
 }
 
 const SettingsContextProvider = ({ children, settings }: SettingsProps) => {
