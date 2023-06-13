@@ -1,6 +1,6 @@
 {
   "name": "@lcacollect/core",
-  "version": "1.0.5",
+  "version": "1.2.0",
   "description": "Shared Core library for LCAcollect",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -24,7 +24,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "Proprietary",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@apollo/client": "^3.7.0",
     "@graphql-codegen/cli": "^2.6.2",
