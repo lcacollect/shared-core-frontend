@@ -1,8 +1,15 @@
 import { createContext, useContext } from 'react'
 
 export interface Settings {
-  domainName: string | null
-  projectStageList: string | string[] | null
+  domainName?: string | null
+  projectStages?: string | string[] | null
+  defaultValues?: any
+  description?: string | null
+  displayConfig?: any
+  logoUrl?: string | null
+  metaFields?: any
+  name?: string | null
+  url?: string | null
 }
 
 const SettingsContext = createContext({} as Settings)
